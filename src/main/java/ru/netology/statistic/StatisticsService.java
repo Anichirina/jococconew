@@ -21,14 +21,5 @@ public class StatisticsService {
     }
 
 
-    public long findMin(long[] incomesInBillions) {
-        long current_min_index = 0;
-        long incomes = incomesInBillions[0];
-        long current_min = incomesInBillions[0];
-        for (long income : incomesInBillions) {
-            if (current_min >= income)
-            current_min = income;
-        }
-        return current_min;
-    }
+
 }
